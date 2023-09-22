@@ -1,0 +1,78 @@
+body{
+    background-image: url(./wp6750172-cool-patterns-wallpapers.jpg);
+    margin:0px;
+    padding:0px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    
+  }
+  
+   
+  
+  input,label{
+    display:block;
+    color:violet;
+    margin:5px 0px;
+    font-size:17px
+  }
+  
+  h1,p{
+    text-align:center;
+    color:black;
+    font-family:Baskerville;
+  }
+  
+  
+  .inline{
+    width:unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display:inline;
+  }
+  
+  form {
+    width: 75%;/**110vw**/
+    /**max-width: 500px;
+    min-width: 300px;**/
+    margin: 0 auto;
+    padding-bottom: 2em;
+    font-family:Baskerville;
+    
+   
+  }
+  
+  
+  fieldset{
+    background-color:navy;
+    border:none;
+    opacity:75%;
+    border-bottom:2px solid violet;
+    padding:25px;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius:45px;
+    background-color:white;
+    }
+  
+    textarea{
+      border-radius:0px;
+    }
+  
+  input[type="submit"] {
+    display: block;
+    width: none;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color:rgb(100,100,190);
+    border-color: white;
+    border-radius:0px;
+    min-width: 300px;}
+  
